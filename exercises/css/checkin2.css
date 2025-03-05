@@ -1,0 +1,99 @@
+body {
+    background-color: #ffc0cb
+}
+
+h1 {
+    font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: rgb(226, 13, 119);
+  text-align: center;
+  font-size: 8vw;
+  background-color: white;
+  outline: 2rem pink dashed;
+ 
+
+}
+
+hr {
+    height: .5rem;
+    background-color:rgb(226, 13, 119);
+    margin-top: 1.5rem;
+    border: none;
+}
+
+.first {
+    text-align: right;
+    font-family: serif, Helvetica, sans-serif;
+    color: #B20A5E;
+    font-size: 3.5vw;
+    font-style: italic;
+    margin-top: 2.5rem;
+
+}
+
+header {
+    background-color: rgb(150, 231, 150);
+ padding: 1rem;
+outline: .75rem solid rgb(150, 231, 150);
+
+}
+
+img {
+
+    border: 1rem solid;
+    color: rgb(150, 231, 150);;
+    outline: 0.35rem dashed rgb(226, 13, 119);
+    margin: 2rem;
+    max-width: 100%;
+    float: left;
+}
+
+.second {
+    font-family: serif, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(162, 41, 93);;
+    font-size: 3vw;
+    line-height: 1.75rem;
+    background-color: white;
+    margin: 3rem;
+    border: 0.25rem solid rgb(226, 13, 119);
+
+   
+}
+
+footer {
+    background-color: rgb(150, 231, 150);
+  padding: .5rem;
+  font-family: serif, Helvetica, sans-serif;
+  font-size: 2.5vw;
+
+}
+
+.third {
+
+    font-family: serif, Helvetica, sans-serif;
+    font-weight: bold;
+   font-size: 4vw;
+
+    
+}
+a:link {
+    color: rgb(162, 41, 93);
+    text-decoration: underline;
+    padding-right: 10rem;
+}
+
+a:visited {
+color: rgb(45, 11, 35);
+text-decoration: none;
+}
+
+a:hover {
+  color: rgb(91, 141, 91);
+}
+
+a:active {
+    color:white;
+}
