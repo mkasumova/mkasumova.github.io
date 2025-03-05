@@ -23,7 +23,7 @@ hr {
     border: none;
 }
 
-.first {
+h2 {
     text-align: right;
     font-family: serif, Helvetica, sans-serif;
     color: #B20A5E;
@@ -50,7 +50,7 @@ img {
     float: left;
 }
 
-.second {
+p {
     font-family: serif, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(162, 41, 93);;
@@ -71,14 +71,6 @@ footer {
 
 }
 
-.third {
-
-    font-family: serif, Helvetica, sans-serif;
-    font-weight: bold;
-
-
-    
-}
 a:link {
     color: black;
     text-decoration: underline;
