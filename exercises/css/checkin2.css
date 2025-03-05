@@ -33,6 +33,14 @@ h2 {
 
 }
 
+.second {
+   
+    font-family: serif, Helvetica, sans-serif;
+    color: #B20A5E;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 2.5rem;
+}
 header {
     background-color: rgb(150, 231, 150);
  padding: 1rem;
