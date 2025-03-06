@@ -1,0 +1,65 @@
+
+
+#mustache {
+    position: absolute;
+
+    top: 300px;
+    left: 200px;
+
+
+}
+
+h1 {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(225, 162, 173)
+
+}
+
+    
+body {
+    background-color: purple;
+
+}
+
+#baseImage {
+
+    position: absolute;
+    left: 100px;
+}
+
+button {
+    color: purple;
+    background-color: pink;
+    border: .25rem, solid, rgb(88, 170, 188);
+    position: absolute;
+    top: 685px;
+    margin-bottom: 20px;
+
+}
+
+#wig {
+    position: absolute;
+    left: 135px;
+    top: 100px;
+}
+
+#wigbutton {
+    position: absolute;
+    left: 175px;
+    top: 685px;
+
+}
+
+hr {
+
+    height: .2rem;
+    margin-top: -3rem;
+    background-color:rgb(226, 13, 119);
+    border: none;
+
+}
+
