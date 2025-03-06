@@ -3,8 +3,8 @@
 #mustache {
     position: absolute;
 
-    top: 300px;
-    left: 200px;
+    top: 295px;
+    left: 420px;
 
 
 }
@@ -28,7 +28,7 @@ body {
 #baseImage {
 
     position: absolute;
-    left: 100px;
+    left: 320px;
 }
 
 button {
@@ -36,21 +36,22 @@ button {
     background-color: pink;
     border: .25rem, solid, rgb(88, 170, 188);
     position: absolute;
-    top: 685px;
-    margin-bottom: 20px;
+    top: 200px;
+  
+    font-size: 1.5rem; 
+ 
 
 }
 
 #wig {
     position: absolute;
-    left: 135px;
+    left: 360px;
     top: 100px;
 }
 
 #wigbutton {
     position: absolute;
-    left: 175px;
-    top: 685px;
+    top: 250px;
 
 }
 
