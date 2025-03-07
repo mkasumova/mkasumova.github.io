@@ -1,0 +1,99 @@
+body {
+background-image: url("../../images/background.jpg");
+margin: 0;
+font-family: "Atma", system-ui;
+font-weight: 400;
+font-style: normal;
+
+}
+
+header {
+
+    background-color: rgb(94, 94, 110);
+    color: white;
+    padding: 2rem;
+    text-align: right;
+
+}
+
+main {
+    border: 0px solid red
+}
+
+article {
+    border: 1px solid;
+    background-color: white;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+footer {
+
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(178, 178, 206);
+    margin: 2rem;
+    border-radius: 2rem;
+  
+}
+
+a:link {
+    color: rgb(178, 75, 135);
+
+}
+
+a:visited {
+    color: darkblue
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: green
+}
+
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: green;
+    text-decoration: none;
+
+}
+
+header a:active {
+    color: hotpink;
+    text-decoration: none;
+}
+
+h2.logo {
+    background-color: lightcoral;
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.wrapper {
+    border: 0px black solid;
+    margin: 0 auto;
+    max-width: 40rem;
+}
