@@ -9,7 +9,7 @@ font-style: normal;
 
 header {
 
-    background-color: rgb(94, 94, 110);
+    background-color: #5e5e6e;
     color: white;
     padding: 2rem;
     text-align: right;
@@ -30,35 +30,35 @@ article {
 }
 footer {
 
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1rem;
     text-align: center;
 }
 
 h1 {
     text-align: center;
-    background-color: rgb(178, 178, 206);
+    background-color: #b2b2ce;
     margin: 2rem;
     border-radius: 2rem;
   
 }
 
 a:link {
-    color: rgb(178, 75, 135);
+    color: #b24b87;
 
 }
 
 a:visited {
-    color: rgb(115, 75, 159)
+    color: #734b9f
 }
 
 a:hover {
-    color: red
+    color: #E00000
 }
 
 a:active {
-    color: green
+    color: #008000
 }
 
 header a:link {
@@ -67,23 +67,23 @@ header a:link {
 }
 
 header a:visited {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 header a:hover {
-    color: green;
+    color: #75FF75;
     text-decoration: none;
 
 }
 
 header a:active {
-    color: hotpink;
+    color: #FFD6EB;
     text-decoration: none;
 }
 
 h2.logo {
-    background-color: lightcoral;
+    background-color: #EC6565;
     text-align: center;
     width: 6rem;
     height: 6rem;
