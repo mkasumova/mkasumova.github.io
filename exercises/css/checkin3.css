@@ -22,7 +22,6 @@ header {
     grid-row-end: 3; 
     grid-column-start: 1;
     grid-column-end: 3;
-    font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
     align-content: center;
