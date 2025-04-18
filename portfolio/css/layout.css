@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(206, 179, 156);
     margin: 0;
+    font-weight: 100;
+    font-size: 3.5rem;
+    font-family: "Red Hat Text", sans-serif;
+  font-style: normal;
+  background-image: url("../../images/header.jpg");
 }
 
 
@@ -11,6 +15,9 @@ header {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+    border: 0.15rem solid #edc6d9;
+  background-color: #dcf19c;
+
 }
 h1 a {
     text-decoration: none;
@@ -26,9 +33,7 @@ h1 {
     align-items: center;
     text-align: center;
   font-size: 2.3rem;
-  font-family: "Oregano", cursive;
-    font-weight: 400;
-    font-style: normal;
+ font-weight: 400;
 }
 
 
@@ -45,17 +50,14 @@ nav a:hover {
 
 nav li {
     list-style-type: none;
-    
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    font-family: "Oregano";
-  font-weight: 400;
-  font-style: normal;
   font-size: 1.2rem;
+  font-weight: 350;
 }
 
 .wrapper {
@@ -71,7 +73,8 @@ nav ul {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
-    display: grid;  
+    transform: translateX(100px);
+  
 }
 
 .emptyspaceleft {
@@ -95,25 +98,35 @@ nav ul {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
-    grid-column-end: 5;
-    
-   
+    grid-column-end: 5;  
 }
 
 .content h2 {
     font-weight: 100;
     font-size: 3.5rem;
     font-family: "Red Hat Text", sans-serif;
-  font-weight: 450;
+  font-weight: 400;
   font-style: normal;
+  border: 0.2rem dashed #edc6d9;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #dcf19c;
+  display: inline-block;
+  padding: 0.5rem;
+  
 }
 
 .content p {
     font-weight: 100;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-family: "Red Hat Text", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-style: normal;
+  line-height: 80px;
+  padding: 1rem;
+  border: 0.03rem solid #edc6d9;
+  border-radius: 40px;
+  background-color: #dcf19c;
 }
 
 .cat {
@@ -121,15 +134,14 @@ nav ul {
     grid-row-end: 4;
     grid-column-start: 4;
     grid-column-end: 6;
+
 }
 
 .cat img {
         max-width: 100%;
         height: auto;
         display: block;
-        transform: translateX(300px);
+        transform: translateX(330px);
 }
 
-
-
-/*FIRST PAGE CONTENT END */ 
+/*FIRST PAGE CONTENT END */
