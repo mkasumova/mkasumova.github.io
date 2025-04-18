@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(206, 179, 156);
+    margin: 0;
+}
+
+
+/*HEADER START*/
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover {
+    color: rgb(174, 93, 106);
+}
+
+h1 {
+    display: grid;
+    align-items: center;
+    text-align: center;
+  font-size: 2.3rem;
+  font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav a:hover {
+    color: rgb(174, 93, 106);
+}
+
+nav li {
+    list-style-type: none;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: "Oregano";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 5rem 1fr auto 1fr 1fr 1fr;
+    grid-template-rows: auto 1rem 1fr;
+    min-height: 100vh;
+}
+
+
+.emptyspaceright {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;  
+}
+
+.emptyspaceleft {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: end;
+
+}
+
+
+/*HEADER END*/
+
+/*FIRST PAGE CONTENT START */
+
+.content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+   
+}
+
+.content h2 {
+    font-weight: 100;
+    font-size: 3.5rem;
+    font-family: "Red Hat Text", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.content p {
+    font-weight: 100;
+    font-size: 1.75rem;
+    font-family: "Red Hat Text", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.cat {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+
+/*FIRST PAGE CONTENT END */ 
