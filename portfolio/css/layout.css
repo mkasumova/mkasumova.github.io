@@ -73,7 +73,7 @@ nav ul {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
-    transform: translateX(100px);
+    transform: translateX(140px);
   
 }
 
