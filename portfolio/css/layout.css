@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: 10rem 1fr 10rem;
     grid-template-rows: auto 1fr;
-    min-height: 100vh;
+
 }
 header {
     grid-row-start: 1;
@@ -85,7 +85,7 @@ nav ul {
 }
 
 .content p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Red Hat Text", sans-serif;
     font-weight: 450;
     color: rgb(31, 63, 76);
@@ -93,7 +93,8 @@ nav ul {
     border-radius: 15px;
     background-image: url("../../images/bg2.jpg");
     display: inline;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.05rem;
+    line-height: 4rem;
 }
 
 /*MAIN BODY CONTENT ENDS */
@@ -103,24 +104,70 @@ nav ul {
 .aboutme {
     text-align: center;
     background-image: url("../../images/bg2.jpg");
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Winky Rough", sans-serif;
     color: rgb(31, 63, 76);
+    letter-spacing: 0.4rem;
 }
 
 .body {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-family: "Red Hat Text", sans-serif;
-    font-weight: 450;
+    font-weight: 350;
     color: rgb(31, 63, 76);
     padding: 1rem;
-    border-radius: 15px;
-    letter-spacing: 0.15rem;
+    border-radius: 30px;
+    letter-spacing: 0.055rem;
+    line-height: 50px;
     margin: 2rem;
-    background-color: rgb(225, 214, 172);
+    background-color: rgb(220, 213, 188);
+
 }
 
-.aboutmeimg {
-   float: right;
-   margin: 1rem
+img {
+float: right;
+margin: 4rem;
+max-width: 100%;
+}
+
+
+/*ABOUT ME PAGE ENDS*/
+
+/*RESUME PAGE STARTS*/
+
+.resume {
+    background-color: rgb(220, 213, 188);
+    padding: 2rem;
+    margin: 4rem;
+    font-family: "Red Hat Text", sans-serif;
+    
+}
+
+.resume a {
+    color: rgb(37, 95, 126);
+}
+
+.resume a:visited {
+    color: rgb(53, 20, 20)
+}
+
+.resume a:hover {
+    color: rgb(74, 192, 121)
+}
+
+.resume a:active {
+    color: rgb(25, 23, 93);
+}
+
+.name {
+    font-size: 2.3rem;
+}
+
+.pwtc {
+    font-style: italic;
+}
+
+.headers {
+    font-size: 1.5rem;
+    font-weight: 550;
 }
