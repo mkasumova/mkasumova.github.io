@@ -241,20 +241,30 @@ article {
 
 }
 
+article h3 {
+
+    text-align: center;
+
+}
+
 article a {
     color: rgb(37, 95, 126);
+    text-decoration: none;
 }
 
 article a:visited {
-    color: rgb(71, 13, 13)
+    color: rgb(71, 13, 13);
+    text-decoration: none;
 }
 
 article a:hover {
-    color: rgb(209, 72, 202)
+    color: rgb(209, 72, 202);
+    text-decoration: none;
 }
 
 article a:active {
     color: rgb(199, 116, 53);
+    text-decoration: none;
 }
 
 /*WRITING PORTFOLIO ENDS*/
