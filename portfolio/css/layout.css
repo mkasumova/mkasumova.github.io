@@ -11,14 +11,15 @@ body {
 
 }
 header {
+    display: grid;
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
+    justify-content: end;
 }
 
 nav {
-  background-image: url("../../images/bg2.jpg");
   padding: 2.2rem;
   font-family: "Red Hat Text", sans-serif;
   letter-spacing: 0.015rem;
@@ -41,7 +42,6 @@ nav {
     font-size: 1.6rem;
     font-family: "Dancing Script";
     font-weight: 750;
-  font-optical-sizing: auto;
 }
 
 .logo a:hover {
@@ -112,6 +112,7 @@ nav ul li:hover .dropdown_menu {
 /*HEADER END*/
 
 
+
 /*MAIN PAGE BODY CONTENT*/
 
 .content {
@@ -137,13 +138,13 @@ nav ul li:hover .dropdown_menu {
 }
 
 .content p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "Red Hat Text", sans-serif;
     font-weight: 450;
     color: rgb(31, 63, 76);
     padding: 1rem;
     border-radius: 15px;
-    background-image: url("../../images/bg2.jpg");
+    background-color: rgba(245, 222, 179, 0.575);
     display: inline;
     letter-spacing: 0.05rem;
     line-height: 4rem;
@@ -155,25 +156,26 @@ nav ul li:hover .dropdown_menu {
 
 .aboutme {
     text-align: center;
-    background-image: url("../../images/bg2.jpg");
-    font-size: 2.5rem;
-    font-weight: 250;
+    font-size: 3.5rem;
+    font-weight: 450;
     font-family: "Winky Rough", sans-serif;
-    color: rgb(31, 63, 76);
-    letter-spacing: 0.4rem;
+    color: rgba(21, 15, 47, 0.766);
+    letter-spacing: 0.4rem;    
+    
 }
 
 .body {
     font-size: 1.2rem;
     font-family: "Red Hat Text", sans-serif;
-    font-weight: 350;
+    font-weight: 450;
     color: rgb(31, 63, 76);
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 30px;
     letter-spacing: 0.055rem;
     line-height: 50px;
-    margin: 1rem;
-    background-color: rgba(245, 222, 179, 0.662)
+    margin: 3rem;
+    background-color: rgba(213, 149, 159, 0.577);
+    
 
 }
 
@@ -182,6 +184,8 @@ float: right;
 margin: 4rem;
 max-width: 100%;
 margin-left: 2rem;
+border-radius: 60%;
+
 }
 
 
@@ -190,7 +194,7 @@ margin-left: 2rem;
 /*RESUME PAGE STARTS*/
 
 .resume {
-    background-color: rgba(245, 222, 179, 0.611);
+    background-color: rgba(213, 149, 159, 0.577);
     padding: 2rem;
     margin: 4rem;
     font-family: "Red Hat Text", sans-serif;
@@ -216,6 +220,7 @@ margin-left: 2rem;
 
 .name {
     font-size: 2.3rem;
+    font-weight: 550;
 }
 
 .pwtc {
@@ -224,8 +229,9 @@ margin-left: 2rem;
 
 .headers {
     font-size: 1.5rem;
-    font-weight: 550;
+    font-weight: 500;
 }
+
 
 
 /*RESUME PAGE ENDS*/
@@ -233,7 +239,7 @@ margin-left: 2rem;
 /* PORTFOLIO PAGE START*/
 
 article {
-    background-color: rgba(245, 222, 179, 0.63);
+    background-color: rgba(213, 149, 159, 0.577);
     padding: 2rem;
     margin: 2rem;
     border-radius: 10%;
@@ -242,13 +248,12 @@ article {
 }
 
 article h3 {
-
     text-align: center;
 
 }
 
 article a {
-    color: rgb(37, 95, 126);
+    color: rgb(31, 63, 76);
     text-decoration: none;
 }
 
@@ -267,4 +272,50 @@ article a:active {
     text-decoration: none;
 }
 
-/*WRITING PORTFOLIO ENDS*/
+.portfolioheaders {
+    color: rgb(31, 63, 76);
+}
+
+/*PORTFOLIO ENDS*/
+
+
+/*CONTACT ME PAGE STARTS*/
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: center;
+    justify-content: center; 
+}
+
+.contact_me {
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.contact a {
+    color: rgb(15, 58, 83);
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: rgb(137, 52, 116);
+}
+
+/*CONTACT ME PAGE ENDS*/
+
+/*CREDITS*/
+
+.credits {
+    padding: 3rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 8rem;
+}
