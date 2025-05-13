@@ -45,7 +45,7 @@ nav {
 }
 
 .logo a:hover {
-    color: rgb(110, 93, 174);
+    color: rgb(174, 93, 106);
 }
 
 
@@ -94,6 +94,7 @@ nav ul li {
 nav ul li:hover .dropdown_menu {
     display: block;
     position: absolute;
+    color:rgb(174, 93, 106);
 }
 
 .dropdown_menu ul {
@@ -203,15 +204,15 @@ border-radius: 60%;
 }
 
 .resume a {
-    color: rgb(37, 95, 126);
+    color: rgb(0, 0, 0);
 }
 
 .resume a:visited {
-    color: rgb(71, 13, 13)
+    color: rgb(148, 67, 67)
 }
 
 .resume a:hover {
-    color: rgb(209, 72, 202)
+    color: green;
 }
 
 .resume a:active {
@@ -253,7 +254,7 @@ article h3 {
 }
 
 article a {
-    color: rgb(31, 63, 76);
+    color: black;
     text-decoration: none;
 }
 
@@ -263,7 +264,7 @@ article a:visited {
 }
 
 article a:hover {
-    color: rgb(209, 72, 202);
+    color: green;
     text-decoration: none;
 }
 
@@ -298,14 +299,14 @@ article a:active {
 }
 
 .contact a {
-    color: rgb(15, 58, 83);
+    color: rgb(0, 0, 0);
     padding: 2rem;
     font-size: 2rem;
     text-decoration: none;
 }
 
 .contact a:hover {
-    color: rgb(137, 52, 116);
+    color: green;
 }
 
 /*CONTACT ME PAGE ENDS*/
@@ -313,9 +314,17 @@ article a:active {
 /*CREDITS*/
 
 .credits {
-    padding: 3rem;
+    padding: 1rem;
     font-family: "Red Hat Text", sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    margin-top: 8rem;
+    margin-top: 9rem;
+}
+
+.credit2 {
+    padding: 1rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
 }
