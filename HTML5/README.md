@@ -1,7 +1,7 @@
 # Disability and Accessibility in the Digital Landscape
 
 As web developers, we have a responsibility to adhere to web accessibility standards. Throughout this MadCap Flare Project, my classmates and I focused on developing a PDF and website output to provide an in-depth overview of different accessibility standards, tools, and best practices when creating digital content.
-
+________________________________________________________________________________________________________________________________
 ## About the Project
 
 In this project, my classmates and I focused on developing a PDF and website output through MadCap Flare, a Help Authoring Tool, to provide an in-depth **overview of different accessibility standards, tools, and best practices when creating digital content**.
@@ -23,7 +23,7 @@ My teammates are:
 * George Coulouras
 We focused on reducing brain power while using websites and consuming digital content. This is called **cognitive load** – through best practices, such as chunking sections, splitting videos into chapters, and using on-screen markup, such as callouts, cognitive load can be lowered. 
 
-!*This can be beneficial for people with disabilities, but can also be very helpful for those without disabilities, too!*
+*This can be beneficial for people with disabilities, but can also be very helpful for those without disabilities, too!*
 
 ### Tools and concepts used
 Throughout the project, my team and I focused on research. We used online sources to give definitions, outline best practices, and provide context about disability and accessibility in the digital world. Further, we leveraged ClimpChamp, an online video recording tool, to demonstrate the topics of chunking, chapters, and on-screen markup.
