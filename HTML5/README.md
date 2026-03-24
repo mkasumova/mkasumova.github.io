@@ -19,8 +19,8 @@ The topics that are covered in the content are (in order of team #):
 ### My team!
 My team focused on **Chunking, chapters, and on-screen markup.** 
 My teammates are:
-*Rylee Davis
-*George Coulouras
+* Rylee Davis
+* George Coulouras
 We focused on reducing brain power while using websites and consuming digital content. This is called **cognitive load** – through best practices, such as chunking sections, splitting videos into chapters, and using on-screen markup, such as callouts, cognitive load can be lowered. 
 
 !*This can be beneficial for people with disabilities, but can also be very helpful for those without disabilities, too!*
@@ -33,7 +33,7 @@ Although we split the topics up, each person still stayed aware of everyone’s 
 
 ## Top things 3 things I have learned so far
 
-*The history of disability – there is a lot that is not covered in history class. I have learned a lot about different acts, protests, and other history that relates to disability rights.
-*How to use MadCap Flare – this is the first Help Authoring Tool I have had the chance to use!
-*Teamwork – I have gotten to work with my group members both in class and asynchronously, which has helped me in practicing my teamwork skills!
+* The history of disability – there is a lot that is not covered in history class. I have learned a lot about different acts, protests, and other history that relates to disability rights.
+* How to use MadCap Flare – this is the first Help Authoring Tool I have had the chance to use!
+* Teamwork – I have gotten to work with my group members both in class and asynchronously, which has helped me in practicing my teamwork skills!
 
