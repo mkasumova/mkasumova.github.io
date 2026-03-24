@@ -39,7 +39,5 @@ Although we split the topics up, each person still stayed aware of everyone’s 
 
 If you don't have time to look at the whole project, please check out the [Web Content Accessbility Guidelines](https://www.wcag.com/blog/web-content-accessibility-guidelines-wcag-by-the-numbers/) to help you make your website accessible!
 
-![An outline of the WCAG standards, showing the difference between A, AA, AA levels.](/Users/mashakasumova/Desktop/wcag-checklist.jpg)
-
 
 
