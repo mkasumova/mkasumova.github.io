@@ -34,10 +34,10 @@
 
 @keyframes bounce {
   from {
-    top: 50%;
+    top: 50%; /* determines how high on the page it goes */
     transform: scaleX(79.5%) scaleY(65%);
   }
   to {
-    top: 60%;
+    top: 60%; /* determines how low on the page it goes */
   }
 }
