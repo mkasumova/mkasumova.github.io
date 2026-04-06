@@ -1,0 +1,330 @@
+body {
+    background-image: url("../../images/bg.png");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+/*HEADER*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2;
+
+}
+header {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: end;
+}
+
+nav {
+  padding: 2.2rem;
+  font-family: "Red Hat Text", sans-serif;
+  letter-spacing: 0.015rem;
+}
+
+
+.logo {
+    text-align: center;
+    width: .5rem;
+    display: grid;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+.logo a{ 
+    text-decoration: none;
+    color: rgb(15, 58, 83);
+    font-size: 1.6rem;
+    font-family: "Dancing Script";
+    font-weight: 750;
+}
+
+.logo a:hover {
+    color: rgb(174, 93, 106);
+}
+
+
+h1 a {
+    text-decoration: none;
+    color: rgb(15, 60, 11);
+}
+
+h1 a:hover {
+    color: rgb(174, 93, 106);
+}
+
+nav a {
+    color: rgb(15, 58, 83);
+    text-decoration: none;
+    padding: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: rgb(174, 93, 106);
+}
+
+nav li {
+    list-style-type: none;   
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  font-size: 1.2rem;
+  font-weight: 350;
+}
+
+nav ul li {
+    position: relative;
+}
+.dropdown_menu {
+    display: none;
+    right: 0;
+    margin-top: 1rem;
+}
+
+nav ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    color:rgb(174, 93, 106);
+}
+
+.dropdown_menu ul {
+    display: block;
+}
+
+.dropdown_menu li {
+    background-color: hsla(38, 65%, 76%, 0.622);
+}
+
+.dropdown_menu li a {
+    line-height: 4rem;
+}
+
+
+/*HEADER END*/
+
+
+
+/*MAIN PAGE BODY CONTENT*/
+
+.content {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-bottom: 3rem;
+}
+
+.content h2 {
+    font-size: 5.5rem;
+    color: rgb(31, 63, 76);
+    font-weight: 200;
+    font-family: "Winky Rough", sans-serif;
+    letter-spacing: 0.2rem;
+     grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    line-height: 140px;
+    padding-right: 8rem;
+  
+}
+
+.content p {
+    font-size: 1.2rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 450;
+    color: rgb(31, 63, 76);
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: rgba(245, 222, 179, 0.575);
+    display: inline;
+    letter-spacing: 0.05rem;
+    line-height: 4rem;
+}
+
+/*MAIN BODY CONTENT ENDS */
+
+/*ABOUT ME PAGE STARTS*/
+
+.aboutme {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 450;
+    font-family: "Winky Rough", sans-serif;
+    color: rgba(21, 15, 47, 0.766);
+    letter-spacing: 0.4rem;    
+    
+}
+
+.body {
+    font-size: 1.2rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 450;
+    color: rgb(31, 63, 76);
+    padding: 1rem;
+    border-radius: 30px;
+    letter-spacing: 0.055rem;
+    line-height: 50px;
+    margin: 3rem;
+    background-color: rgba(213, 149, 159, 0.577);
+    
+
+}
+
+img {
+max-width: 100%;
+margin-left: 2rem;
+border-radius: 40%;
+
+}
+
+
+/*ABOUT ME PAGE ENDS*/
+
+/*RESUME PAGE STARTS*/
+
+.resume {
+    background-color: rgba(213, 149, 159, 0.577);
+    padding: 2rem;
+    margin: 4rem;
+    font-family: "Red Hat Text", sans-serif;
+    color: rgb(31, 63, 76);
+    
+}
+
+.resume a {
+    color: rgb(0, 0, 0);
+}
+
+.resume a:visited {
+    color: rgb(148, 67, 67)
+}
+
+.resume a:hover {
+    color: green;
+}
+
+.resume a:active {
+    color: rgb(199, 116, 53);
+}
+
+.name {
+    font-size: 2.3rem;
+    font-weight: 550;
+}
+
+.pwtc {
+    font-style: italic;
+}
+
+.headers {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+/*RESUME PAGE ENDS*/
+
+/* PORTFOLIO PAGE START*/
+
+article {
+    background-color: rgba(213, 149, 159, 0.577);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10%;
+    font-family: "Red Hat Text", sans-serif;
+
+}
+
+article h3 {
+    text-align: center;
+
+}
+
+article a {
+    color: black;
+}
+
+article a:visited {
+    color: rgb(71, 13, 13);
+}
+
+article a:hover {
+    color: green;
+}
+
+article a:active {
+    color: rgb(199, 116, 53);
+}
+
+.portfolioheaders {
+    color: rgb(31, 63, 76);
+}
+
+/*PORTFOLIO ENDS*/
+
+
+/*CONTACT ME PAGE STARTS*/
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: center;
+    justify-content: center; 
+}
+
+.contact_me {
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.contact a {
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: green;
+}
+
+/*CONTACT ME PAGE ENDS*/
+
+/*CREDITS*/
+
+.credits {
+    padding: 1rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 9rem;
+}
+
+.credit2 {
+    padding: 1rem;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
