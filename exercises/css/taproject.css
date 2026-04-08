@@ -40,28 +40,25 @@
   }
 }
 
-/* The animation code */
-@keyframes myAnimation {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-
 /* The element to apply the animation to */
 .colorchange {
   width: 100px;
   height: 100px;
   background-color: red;
-  animation-name: changecolor;
+  animation-name: colorchange;
   animation-duration: 10s;
 }
 
-@keyframes changecolor {
+@keyframes colorchange {
   0%   {background-color: red;}
   10%  {background-color: orange;}
   25%  {background-color: yellow;}
   50% {background-color: green;}
   75% {background-color: blue;}
   100% {background-color: purple;}
+  from {background-color: red;}
+  to {background-color: purple;}
+}
 }
 
 .colorchange {
@@ -73,15 +70,16 @@
 }
 
 .slidey {
-  background-color: red; 
-  border-radius: 100%; /* actual animation */
-  height: 50px;
-  position:absolute;
-  width: 50px;
-  animation-name: sliding;
-  animation: bounce 1s ease-in-out infinite;
-  animation-fill-mode: both; /* i dont know wtf this does */
-  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
+
+	height: 200px; /* determines shape height */
+	width: 200px; /* determines shape width */
+	background-color: fuchsia; /* Shape Color */
+	animation:ease-in-out infinite ;
+	/* ease-in-out: creates a smooth, natural movement. */
+	/* infinite: makes it go on forever */
+	animation-name: sliding; /* specifies a name for the animation */
+	animation-duration: 3s; /* determines how long the animation is */
+	animation-direction:normal; /* determines which way the animation goes */
 }
 
 @keyframes sliding {
