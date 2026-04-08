@@ -1,19 +1,17 @@
 .spinnyelement {
 
-	height: 200px;
-	width: 200px;
-	background-color: fuchsia; 
-	display: flex;
-	animation:ease-in-out infinite;
-	animation-name: spin;
-	animation-duration: 3s;
-	animation-direction:alternate-reverse;
+	height: 200px; /* determines shape height */
+	width: 200px; /* determines shape width */
+	background-color: fuchsia; /* Shape Color */
+	animation:ease-in-out infinite ;
+  /* ease-in-out: creates a smooth, natural movement. */
+  /* infinite: makes it go on forever */
+	animation-name: spin; /* specifies a name for the animation */
+	animation-duration: 3s; /* determines how long the animation is */
+	animation-direction:normal; /* determines which way the animation goes */
 }
 
 @keyframes spin{
-    0%{
-
-    }
 
 0%{
 	Transform: rotate(360deg); /* actual animation */
@@ -34,10 +32,10 @@
 
 @keyframes bounce {
   from {
-    top: 50%; /* determines how high on the page it goes */
+    top: 50%; 
     transform: scaleX(79.5%) scaleY(65%);
   }
   to {
-    top: 60%; /* determines how low on the page it goes */
+    top: 60%;
   }
 }
