@@ -46,7 +46,7 @@
   height: 100px;
   background-color: red;
   animation-name: colorchange;
-  animation-duration: 10s;
+  animation-duration: 4s;
 }
 
 @keyframes colorchange {
@@ -60,14 +60,6 @@
   to {background-color: purple;}
 }
 
-
-.colorchange {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: myAnimation;
-  animation-duration: 4s;
-}
 
 .grow {
 
