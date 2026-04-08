@@ -76,7 +76,7 @@
 	animation-iteration-count: infinite;
 }
 
-@keyframes sliding {
+@keyframes growing {
   from {
     top: 50%; 
     transform: scaleX(79.5%) scaleY(65%);
