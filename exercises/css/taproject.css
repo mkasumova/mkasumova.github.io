@@ -59,7 +59,7 @@
   from {background-color: red;}
   to {background-color: purple;}
 }
-}
+
 
 .colorchange {
   width: 100px;
@@ -73,13 +73,15 @@
 
 	height: 200px; /* determines shape height */
 	width: 200px; /* determines shape width */
-	background-color: fuchsia; /* Shape Color */
-	animation:ease-in-out infinite ;
-	/* ease-in-out: creates a smooth, natural movement. */
-	/* infinite: makes it go on forever */
-	animation-name: sliding; /* specifies a name for the animation */
-	animation-duration: 3s; /* determines how long the animation is */
-	animation-direction:normal; /* determines which way the animation goes */
+	background-color: rgb(23, 90, 55); /* Shape Color */
+	position: relative; /* needed for top to work */
+}
+
+.slidey:hover {
+	animation-name: sliding;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
 
 @keyframes sliding {
@@ -91,3 +93,5 @@
     top: 60%;
   }
 }
+
+
