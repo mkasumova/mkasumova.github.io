@@ -78,6 +78,7 @@
   height: 50px;
   position:absolute;
   width: 50px;
+  animation-name: sliding;
   animation: bounce 1s ease-in-out infinite;
   animation-fill-mode: both; /* i dont know wtf this does */
   animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
