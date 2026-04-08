@@ -70,7 +70,7 @@
 }
 
 .grow:hover {
-	animation-name: growing;
+	animation-name: grow;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
