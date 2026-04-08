@@ -69,7 +69,7 @@
   animation-duration: 4s;
 }
 
-.slidey {
+.grow {
 
 	height: 200px; /* determines shape height */
 	width: 200px; /* determines shape width */
@@ -77,8 +77,8 @@
 	position: relative; /* needed for top to work */
 }
 
-.slidey:hover {
-	animation-name: sliding;
+.grow:hover {
+	animation-name: growing;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
