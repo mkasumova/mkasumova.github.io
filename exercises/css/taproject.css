@@ -71,3 +71,24 @@
   animation-name: myAnimation;
   animation-duration: 4s;
 }
+
+.slidey {
+  background-color: red; 
+  border-radius: 100%; /* actual animation */
+  height: 50px;
+  position:absolute;
+  width: 50px;
+  animation: bounce 1s ease-in-out infinite;
+  animation-fill-mode: both; /* i dont know wtf this does */
+  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
+}
+
+@keyframes sliding {
+  from {
+    top: 50%; 
+    transform: scaleX(79.5%) scaleY(65%);
+  }
+  to {
+    top: 60%;
+  }
+}
