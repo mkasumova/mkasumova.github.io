@@ -1,14 +1,18 @@
 .spinnyelement {
 
-	height: 200px; /* determines shape height */
-	width: 200px; /* determines shape width */
+	height: 150px; /* determines shape height */
+	width: 150px; /* determines shape width */
+  margin: 20px;
 	background-color: fuchsia; /* Shape Color */
-	animation:ease-in-out infinite ;
+}
+
+.spinnyelement:hover {
+  animation:ease-in-out infinite ;
   /* ease-in-out: creates a smooth, natural movement. */
   /* infinite: makes it go on forever */
-	animation-name: spin; /* specifies a name for the animation */
-	animation-duration: 3s; /* determines how long the animation is */
 	animation-direction:normal; /* determines which way the animation goes */
+  animation-name: spin; /* specifies a name for the animation */
+  animation-duration: 3s; /* determines how long the animation is */
 }
 
 @keyframes spin{
@@ -25,28 +29,32 @@
   height: 50px;
   position:absolute;
   width: 50px;
-  animation: bounce 1s ease-in-out infinite;
+  animation: bounce .5s ease-in-out infinite;
   animation-fill-mode: both; /* i dont know wtf this does */
   animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
 }
 
 @keyframes bounce {
   from {
-    top: 50%; 
-    transform: scaleX(79.5%) scaleY(65%);
+    top: 55%; 
   }
   to {
-    top: 60%;
+    top: 75%;
+    transform: scaleY(65%); /* Changes the size of the ball as it moves */
   }
 }
 
-/* The element to apply the animation to */
 .colorchange {
   width: 100px;
   height: 100px;
   background-color: red;
+}
+
+.colorchange:hover {
   animation-name: colorchange;
   animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
 
 @keyframes colorchange {
