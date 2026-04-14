@@ -92,3 +92,16 @@
 		transform: scaleX(1) scaleY(1) translateY(10px);
 	}
 }
+
+.squaretocircle {
+	height: 200px; /* determines shape height */
+	width: 200px; /* determines shape width */
+	background-color: rgb(23, 90, 55); /* Shape Color */
+	position: relative; /* needed for top to work */
+}
+
+@keyframes squaretocircle {
+  0%   { border-radius: 0%; }
+  50%  { border-radius: 50%; }
+  100% { border-radius: 0%; }
+}
