@@ -94,9 +94,9 @@
 }
 
 .squaretocircle {
-	height: 200px; /* determines shape height */
-	width: 200px; /* determines shape width */
-	background-color: rgb(23, 90, 55); /* Shape Color */
+	height: 150px; /* determines shape height */
+	width: 100px; /* determines shape width */
+	background-color: rgb(255, 0, 255); /* Shape Color */
 	position: relative; /* needed for top to work */
 }
 
