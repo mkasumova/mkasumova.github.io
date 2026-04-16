@@ -1,3 +1,12 @@
+
+
+body {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
 .spinnyelement {
 
 	height: 150px; /* determines shape height */
@@ -73,7 +82,7 @@
 
 	height: 200px; /* determines shape height */
 	width: 200px; /* determines shape width */
-	background-color: rgb(23,(23, 90, 55); /* Shape Color */
+	background-color: rgb(113, 131, 183); /* Shape Color */
 	position: relative; /* needed for top to work */
 }
 
@@ -108,4 +117,59 @@
   0%   { border-radius: 0%; }
   50%  { border-radius: 50%; }
   100% { border-radius: 0%; }
+}
+
+.introshape {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(232, 230, 217);
+  border: 3px rgba(144, 142, 117, 0.911) solid;
+  display: flex;
+  margin: 20px auto;
+}
+
+a:link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(90, 85, 55, 0.686);
+  font-size: 2rem;
+}
+a:hover {
+  color: rgba(90, 85, 55, 0.441);
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.introshape2 {
+  height: 100px; /* determines shape height */
+	width: 200px; /* determines shape width */
+  background-color: rgb(232, 230, 217);
+  border: 3px rgba(144, 142, 117, 0.911) solid;
+  border-radius: 1rem;
+  transition: transform 0.2s ease, border-radius 0.2s ease;
+  margin: 20px auto;
+  display: flex;
+
+
+}
+
+.introshape2:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
+  background-color: rgba(192, 188, 165, 0.679);
+
+}
+
+.introshapetext2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(71, 69, 58);
 }
