@@ -1,65 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>How to Animate with CSS</title>
-    <link href="../css/cssproject.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Dancing+Script:wght@400..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oregano:ital@0;1&family=PT+Sans+Caption:wght@400;700&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Spicy+Rice&display=swap" rel="stylesheet">
-</head>
-<body>
-
-<h1>Imagine if your nav buttons...</h1>
-<div class="introshape">
-   <a href="#">Resume</a>
-</div>
-<h1>...looked like this:</h1>
-<div class="introshape2">
-    <a href="#">Resume</a>
-</div>
 
 
-<h1>Let's animate with CSS!</h1>
-
-<hr>
-
-<h2> Spinny One </h2>
-<br>
-<div class="spinnyelement">
+body {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
     
-</div>
-<br>
-<h2> Bouncy Ball </h2>
-    <br>
-    <br>
-    <br>    
-    <br>
-    <br>   
-    <br>
-    <br>
-    <div class="bouncyelement">
 
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-<h2> Shape Transform </h2>
-<div class=squaretocircle>
-    
-    </div>
+}
+.spinnyelement {
 
-<h2> Color Change </h2>
-    <div class="colorchange">
+	height: 150px; /* determines shape height */
+	width: 150px; /* determines shape width */
+  margin: 20px;
+	background-color: fuchsia; /* Shape Color */
+}
 
-    </div>
+.spinnyelement:hover {
+  animation:ease-in-out infinite ;
+  /* ease-in-out: creates a smooth, natural movement. */
+  /* infinite: makes it go on forever */
+	animation-direction:normal; /* determines which way the animation goes */
+  animation-name: spin; /* specifies a name for the animation */
+  animation-duration: 3s; /* determines how long the animation is */
+}
 
-<h2>Growing Animation</h2>
-    <div class="grow">
-    </div>
-    
-</body>
-</html>
+@keyframes spin{
+
+0%{
+	Transform: rotate(360deg); /* actual animation */
+	Border-radius: 0%; /* rounds edges */
+    }
+}
+
+.bouncyelement {
+  background-color: red; 
+  border-radius: 100%; /* actual animation */
+  height: 50px;
+  position:absolute;
+  width: 50px;
+  animation: bounce .5s ease-in-out infinite;
+  animation-fill-mode: both; /* i dont know wtf this does */
+  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
+}
+
+@keyframes bounce {
+  from {
+    top: 55%; 
+  }
+  to {
+    top: 75%;
+    transform: scaleY(65%); /* Changes the size of the ball as it moves */
+  }
+}
+
+.colorchange {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.colorchange:hover {
+  animation-name: colorchange;
+  animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0%   {background-color: red;}
+  10%  {background-color: orange;}
+  25%  {background-color: yellow;}
+  50% {background-color: green;}
+  75% {background-color: blue;}
+  100% {background-color: purple;}
+  from {background-color: red;}
+  to {background-color: purple;}
+}
+
+
+.grow {
+
+	height: 200px; /* determines shape height */
+	width: 200px; /* determines shape width */
+	background-color: rgb(113, 131, 183); /* Shape Color */
+	position: relative; /* needed for top to work */
+}
+
+.grow:hover {
+	animation-name: grow;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+	from {
+		transform: scaleX(0.795) scaleY(0.65) translateY(0);
+	}
+	to {
+		transform: scaleX(1) scaleY(1) translateY(10px);
+	}
+}
+
+.squaretocircle {
+	height: 150px; /* determines shape height */
+	width: 100px; /* determines shape width */
+	background-color: blue; /* Shape Color */
+	position: relative; /* needed for top to work */
+}
+
+.squaretocircle:hover {
+	animation: changeshape 2s ease-in-out infinite;
+}
+
+@keyframes changeshape {
+  0%   { border-radius: 0%; }
+  50%  { border-radius: 50%; }
+  100% { border-radius: 0%; }
+}
+
+.introshape {
+  height: 100px;
+  width: 200px;
+  background-color: rgb(232, 230, 217);
+  border: 3px rgba(144, 142, 117, 0.911) solid;
+  display: flex;
+  margin: 20px auto;
+}
+
+a:link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(90, 85, 55, 0.686);
+  font-size: 2rem;
+}
+a:hover {
+  color: rgba(90, 85, 55, 0.441);
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.introshape2 {
+  height: 100px; /* determines shape height */
+	width: 200px; /* determines shape width */
+  background-color: rgb(232, 230, 217);
+  border: 3px rgba(144, 142, 117, 0.911) solid;
+  border-radius: 1rem;
+  transition: transform 0.2s ease, border-radius 0.2s ease;
+  margin: 20px auto;
+  display: flex;
+
+
+}
+
+.introshape2:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
+  background-color: rgba(192, 188, 165, 0.679);
+
+}
+
+.introshapetext2 {
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(71, 69, 58);
+}
