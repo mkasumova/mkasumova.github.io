@@ -53,10 +53,10 @@ h2 {
 
 @keyframes bounce {
   from {
-    top: 55%; 
+    top: 170%; 
   }
   to {
-    top: 75%;
+    top: 200%;
     transform: scaleY(65%); /* Changes the size of the ball as it moves */
   }
 }
