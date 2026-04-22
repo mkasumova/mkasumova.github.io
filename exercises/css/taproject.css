@@ -168,6 +168,10 @@ h1 {
 
 }
 
+a:visited {
+  color: rgba(144, 142, 117, 0.911) solid;
+}
+
 .introshape2:hover {
   transform: scale(1.1);
   border-radius: 20px;
