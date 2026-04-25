@@ -12,121 +12,6 @@ hr {
   width: 45rem;
 }
 
-h2 {
-  font-size: 3rem;
-}
-.spinnyelement {
-
-	height: 150px; /* determines shape height */
-	width: 150px; /* determines shape width */
-  margin: 20px;
-	background-color: fuchsia; /* Shape Color */
-}
-
-.spinnyelement:hover {
-  animation:ease-in-out infinite ;
-  /* ease-in-out: creates a smooth, natural movement. */
-  /* infinite: makes it go on forever */
-	animation-direction:normal; /* determines which way the animation goes */
-  animation-name: spin; /* specifies a name for the animation */
-  animation-duration: 3s; /* determines how long the animation is */
-}
-
-@keyframes spin{
-
-0%{
-	Transform: rotate(360deg); /* actual animation */
-	Border-radius: 0%; /* rounds edges */
-    }
-}
-
-.bouncyelement {
-  background-color: red; 
-  border-radius: 100%; /* actual animation */
-  height: 50px;
-  position:absolute;
-  width: 50px;
-  animation: bounce .5s ease-in-out infinite;
-  animation-fill-mode: both; /* i dont know wtf this does */
-  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
-}
-
-@keyframes bounce {
-  from {
-    top: 170%; 
-  }
-  to {
-    top: 200%;
-    transform: scaleY(65%); /* Changes the size of the ball as it moves */
-  }
-}
-
-.colorchange {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-
-.colorchange:hover {
-  animation-name: colorchange;
-  animation-duration: 4s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-}
-
-@keyframes colorchange {
-  0%   {background-color: red;}
-  10%  {background-color: orange;}
-  25%  {background-color: yellow;}
-  50% {background-color: green;}
-  75% {background-color: blue;}
-  100% {background-color: purple;}
-  from {background-color: red;}
-  to {background-color: purple;}
-}
-
-
-.grow {
-
-	height: 200px; /* determines shape height */
-	width: 200px; /* determines shape width */
-	background-color: rgb(113, 131, 183); /* Shape Color */
-	position: relative; /* needed for top to work */
-}
-
-.grow:hover {
-	animation-name: grow;
-	animation-duration: 1s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-}
-
-@keyframes grow {
-	from {
-		transform: scaleX(0.795) scaleY(0.65) translateY(0);
-	}
-	to {
-		transform: scaleX(1) scaleY(1) translateY(10px);
-	}
-}
-
-.squaretocircle {
-	height: 150px; /* determines shape height */
-	width: 100px; /* determines shape width */
-	background-color: blue; /* Shape Color */
-	position: relative; /* needed for top to work */
-}
-
-.squaretocircle:hover {
-	animation: changeshape 2s ease-in-out infinite;
-}
-
-@keyframes changeshape {
-  0%   { border-radius: 0%; }
-  50%  { border-radius: 50%; }
-  100% { border-radius: 0%; }
-}
-
 .introshape {
   height: 100px;
   width: 200px;
@@ -155,33 +40,119 @@ h1 {
   font-size: 4rem;
 }
 
+
 .introshape2 {
-  height: 100px; /* determines shape height */
-	width: 200px; /* determines shape width */
+  height: 100px;
+	width: 200px;
   background-color: rgb(232, 230, 217);
   border: 3px rgba(144, 142, 117, 0.911) solid;
   border-radius: 1rem;
-  transition: transform 0.2s ease, border-radius 0.2s ease;
   margin: 20px auto;
   display: flex;
-
-
-}
-
-a:visited {
-  color: rgba(144, 142, 117, 0.911) solid;
+  transition: transform 0.2s, border-radius 0.2s; /* changes property values smoothly */
+  /* for mouse lift */
+  /* does same for border-radius */
 }
 
 .introshape2:hover {
-  transform: scale(1.1);
+  transform: scale(1.1); /* performs the actual animation, animation size in parenthesis*/
   border-radius: 20px;
   background-color: rgba(192, 188, 165, 0.679);
-
 }
+
 
 .introshapetext2 {
   text-align: center;
   justify-content: center;
   font-size: 2rem;
   color: rgb(71, 69, 58);
+}
+
+h2 {
+  font-size: 3rem;
+}
+.spinnyelement {
+
+	height: 150px; 
+	width: 150px; 
+  margin: 20px;
+	background-color: fuchsia;
+}
+
+.spinnyelement:hover {
+  animation: ease-in-out infinite;
+  /* ease-in-out: creates a smooth, natural movement. */
+  /* infinite: makes it go on forever */
+	animation-direction:normal; /* determines which way the animation goes */
+  animation-name: spin; /* specifies a name for the animation */
+  animation-duration: 3s; /* determines how long the animation is */
+}
+
+@keyframes spin{
+
+  /* from is the STARTING point of the animation*/
+from{
+	transform: rotate(360deg); /* actual animation */
+    }
+}
+
+.bouncyelement {
+  background-color: red; 
+  border-radius: 100%; /* actual animation */
+  height: 50px;
+  position:absolute;
+  width: 50px;
+  animation: bounce .5s ease-in-out infinite;  /* includes name, length, and motions */
+  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
+}
+
+@keyframes bounce {
+  from {
+    top: 190%; 
+  }
+  to {
+    top: 220%;
+    transform: scaleY(65%); /* Changes the size of the ball as it moves */
+  }
+}
+
+.squaretocircle {
+	height: 150px; /* determines shape height */
+	width: 150px; /* determines shape width */
+	background-color: blue; /* Shape Color */
+	position: relative; /* needed for top to work */
+}
+
+.squaretocircle:hover {
+	animation: changeshape 2s ease-in-out infinite;
+}
+
+@keyframes changeshape {
+  0%   { border-radius: 0%; }
+  50%  { border-radius: 50%; }
+  100% { border-radius: 0%; }
+}
+
+.colorchange {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.colorchange:hover {
+  animation-name: colorchange;
+  animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0%   {background-color: red;}
+  10%  {background-color: orange;}
+  25%  {background-color: yellow;}
+  50% {background-color: green;}
+  75% {background-color: blue;}
+  100% {background-color: purple;}
+  from {background-color: red;}
+  to {background-color: purple;}
 }
