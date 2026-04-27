@@ -96,26 +96,6 @@ from{
     }
 }
 
-.bouncyelement {
-  background-color: red; 
-  border-radius: 100%; /* actual animation */
-  height: 50px;
-  position:absolute;
-  width: 50px;
-  animation: bounce .5s ease-in-out infinite;  /* includes name, length, and motions */
-  animation-direction: alternate; /* essentially creates the loop, makes it go back and forth */
-}
-
-@keyframes bounce {
-  from {
-    top: 190%; 
-  }
-  to {
-    top: 220%;
-    transform: scaleY(65%); /* Changes the size of the ball as it moves */
-  }
-}
-
 .squaretocircle {
 	height: 150px; /* determines shape height */
 	width: 150px; /* determines shape width */
@@ -153,6 +133,4 @@ from{
   50% {background-color: green;}
   75% {background-color: blue;}
   100% {background-color: purple;}
-  from {background-color: red;}
-  to {background-color: purple;}
 }
