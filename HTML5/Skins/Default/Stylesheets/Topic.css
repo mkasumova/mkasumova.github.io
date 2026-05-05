@@ -440,6 +440,13 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
+.xref
+{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #076685;
+}
+
 .dropDown
 {
 	border-bottom: 1px solid #DADEE1;

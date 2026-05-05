@@ -410,8 +410,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		background: transparent url('Images/iconupdated-01.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/iconupdated-01.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row

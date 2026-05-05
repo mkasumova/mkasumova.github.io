@@ -85,10 +85,10 @@
 	{
 		top: 0;
 		margin: 0;
-		width: 229px;
-		height: 55px;
-		background: transparent url('Images/Logo.png') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.png') no-repeat center center;
+		width: 166px;
+		height: 179px;
+		background: transparent url('Images/iconupdated-01.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/iconupdated-01.png') no-repeat center center;
 	}
 
 	.title-bar .menu-icon span
@@ -444,13 +444,13 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 55px;
+		min-height: 179px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 55px;
+		min-height: 179px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
