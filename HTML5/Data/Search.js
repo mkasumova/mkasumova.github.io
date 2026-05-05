@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/BestPractices/BestPractices.htm'],s:['0'],p:[['0',3],['media',12]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/GroupOne/EditingTranscripts.htm'],s:['1'],p:[['1',3],['much',3]]});
