@@ -23,7 +23,7 @@
 	{
 		display: none;
 		background-repeat: no-repeat;
-		background-color: #076685;
+		background-color: #506736;
 	}
 
 	/* Side Navigation Menu styles */
@@ -31,7 +31,7 @@
 	.sidenav-wrapper
 	{
 		display: none;
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	.sidenav-wrapper ul.menu
@@ -777,17 +777,17 @@
 
 	.search-auto-complete li.auto-result-item.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-content.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-history.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-item .auto-result-description
@@ -1125,7 +1125,7 @@
 
 	.sidenav-container ul ul
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	.sidenav-container

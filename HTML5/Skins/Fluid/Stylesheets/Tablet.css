@@ -15,7 +15,7 @@
 	{
 		height: 100%;
 		overflow-x: hidden;
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	.off-canvas-content
@@ -58,7 +58,7 @@
 		background-repeat: no-repeat;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		background-color: #076685;
+		background-color: #506736;
 	}
 
 	/* Topbar Menu Styles */
@@ -158,7 +158,7 @@
 	{
 		font-size: 1em;
 		line-height: inherit;
-		border-bottom: solid 1px #45494C;
+		border-bottom: solid 1px #374924;
 		color: #FFFFFF;
 	}
 
@@ -297,7 +297,7 @@
 
 	.central-separator
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.featured-snippets-container
@@ -847,7 +847,7 @@
 
 	.off-canvas ul ul
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list ul > li > a
@@ -883,32 +883,32 @@
 	ul.off-canvas-list li a:hover
 	{
 		color: #A4AAAE;
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list ul ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list li.js-drilldown-back > a:hover
 	{
-		background-color: #45494C;
+		background-color: #374924;
 	}
 
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover
@@ -973,17 +973,17 @@
 
 	.search-auto-complete li.auto-result-item.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-content.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-history.auto-result-selected
 	{
-		background-color: #DADEE1;
+		background-color: #e4e0d7;
 	}
 
 	.search-auto-complete li.auto-result-item .auto-result-description
@@ -1396,7 +1396,7 @@
 
 	.skip-to-content
 	{
-		color: #45494C;
+		color: #374924;
 		background-color: #FFFFFF;
 	}
 }
