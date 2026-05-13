@@ -1,0 +1,19 @@
+/*<meta />*/
+
+/* MadCap-Branding applanguage:Templates/Projects/Online & Print/Side Navigation and PDF/ */
+
+:root
+{
+	--Lightest: #FFFFFF;
+	--Medium: #A4AAAE;
+	--LogoImage: url('../Images/iconupdated-01.png');
+	--LogoImagePrint: url('../Images/iconupdated-01.png');
+	--HeroImage: url('../Images/Accessibility.png');
+	--Secondary: #e4e0d7;
+	--Light: #e4e0d7;
+	--Primary: #506736;
+	--Dark: #374924;
+	--Darkest: #212b15;
+	--FontFamily: Arial, Avenir, Myriad;
+}
+
