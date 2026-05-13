@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/GroupOne/EditingTranscripts.htm'],s:['1'],p:[['1',3],['much',3]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Colophone/Aboutthisproject.htm'],s:['+','key','workshop'],p:[['+',36],['broadcasting',19],['edited',12],['interrupting',24],['out',39],['synchronized',10],['visibility',35]]});
